@@ -57,6 +57,13 @@ public class Selenium {
 			String actual = errorText.getText();
 		}
 		
+if(driver.findElement(By.id("error")).isDisplayed()) {
+			
+			errorText = driver.findElement(By.id("error"));
+			
+			String actual = errorText.getText();
+		}
+		
 	}
 	
 	
