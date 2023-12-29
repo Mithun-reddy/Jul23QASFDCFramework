@@ -1,0 +1,120 @@
+2023-12-29-21:33:12 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-21:33:12 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-21:33:12 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-21:33:12 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-21:33:12 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-21:33:13 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-12-29-21:33:13 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-12-29-21:33:13 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-12-29-21:33:13 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-12-29-21:33:13 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-12-29-21:33:15 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-21:33:15 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-21:33:15 INFO  BaseTest : setup : userMenuDropDown_TC08 Test Object for reporting is created
+2023-12-29-21:33:15 INFO  BaseTest : setup : userMenuDropDown_TC07 Test Object for reporting is created
+2023-12-29-21:33:15 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-21:33:15 INFO  BaseTest : setup : loginTest2 Test Object for reporting is created
+2023-12-29-21:33:15 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-21:33:15 INFO  BaseTest : setup : userMenuDropDown_TC06 Test Object for reporting is created
+2023-12-29-21:33:15 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-21:33:15 INFO  BaseTest : setup : loginTest1 Test Object for reporting is created
+2023-12-29-21:33:15 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-21:33:16 INFO  LoginPage : loginToApp : started
+2023-12-29-21:33:16 INFO  LoginPage : loginToApp : started
+2023-12-29-21:33:16 INFO  LoginPage : loginToApp : started
+2023-12-29-21:33:16 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-21:33:16 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-21:33:16 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-21:33:16 INFO  LoginPage : loginToApp : started
+2023-12-29-21:33:16 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-21:33:17 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-21:33:17 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-21:33:17 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-21:33:17 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-21:33:17 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-21:33:17 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-21:33:18 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-21:33:38 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-21:35:18 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-21:35:18 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-21:35:18 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-21:35:18 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-21:35:18 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-21:35:21 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-21:35:21 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-21:35:21 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-21:35:21 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-21:35:21 INFO  BaseTest : setup : loginTest2 Test Object for reporting is created
+2023-12-29-21:35:21 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-21:35:21 INFO  BaseTest : setup : userMenuDropDown_TC08 Test Object for reporting is created
+2023-12-29-21:35:21 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-21:35:21 INFO  BaseTest : setup : userMenuDropDown_TC07 Test Object for reporting is created
+2023-12-29-21:35:21 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-21:35:21 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-21:35:21 INFO  BaseTest : setup : userMenuDropDown_TC06 Test Object for reporting is created
+2023-12-29-21:35:22 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-21:35:22 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-21:35:22 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-21:35:22 INFO  BaseTest : setup : loginTest1 Test Object for reporting is created
+2023-12-29-21:35:23 INFO  LoginPage : loginToApp : started
+2023-12-29-21:35:23 INFO  LoginPage : loginToApp : started
+2023-12-29-21:35:23 INFO  LoginPage : loginToApp : started
+2023-12-29-21:35:23 INFO  LoginPage : loginToApp : started
+2023-12-29-21:35:23 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-21:35:23 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-21:35:24 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-21:35:24 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-21:35:25 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-21:35:25 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-21:35:25 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-21:35:25 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-21:35:26 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-21:35:26 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-21:35:26 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-21:35:46 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-22:26:56 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-22:26:56 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-22:26:59 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-22:26:59 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-22:26:59 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-22:26:59 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-22:26:59 INFO  BaseTest : setup : userMenuDropDown_TC07 Test Object for reporting is created
+2023-12-29-22:26:59 INFO  BaseTest : setup : userMenuDropDown_TC08 Test Object for reporting is created
+2023-12-29-22:26:59 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-22:27:00 INFO  LoginPage : loginToApp : started
+2023-12-29-22:27:01 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-22:27:03 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-22:27:03 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-22:43:58 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-22:43:58 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-22:44:01 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-22:44:01 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-22:44:01 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-22:44:01 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-22:44:01 INFO  BaseTest : setup : userMenuDropDown_TC06 Test Object for reporting is created
+2023-12-29-22:44:01 INFO  BaseTest : setup : userMenuDropDown_TC07 Test Object for reporting is created
+2023-12-29-22:44:02 INFO  LoginPage : loginToApp : started
+2023-12-29-22:44:02 INFO  LoginPage : loginToApp : started
+2023-12-29-22:44:03 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-22:44:03 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-22:44:05 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-22:44:05 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-22:44:05 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-22:44:26 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-22:47:43 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-22:47:43 INFO  BaseTest : setDriver :  Spark report configured
+2023-12-29-22:47:46 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-22:47:46 INFO  BaseTest : getBrowserType : Chrome configured
+2023-12-29-22:47:46 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-22:47:46 INFO  BaseTest : setDriver : driver object assigned
+2023-12-29-22:47:46 INFO  BaseTest : setup : userMenuDropDown_TC06 Test Object for reporting is created
+2023-12-29-22:47:46 INFO  BaseTest : setup : userMenuDropDown_TC07 Test Object for reporting is created
+2023-12-29-22:47:47 INFO  LoginPage : loginToApp : started
+2023-12-29-22:47:47 INFO  LoginPage : loginToApp : started
+2023-12-29-22:47:48 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-22:47:48 INFO  LoginPage : loginToApp : Window maximized
+2023-12-29-22:48:03 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-22:48:03 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-12-29-22:48:04 INFO  LoginPage : loginToApp : clicked ion login button
+2023-12-29-22:48:04 INFO  BaseTest : removeDriver : removed driver
+2023-12-29-22:48:37 INFO  BaseTest : removeDriver : removed driver

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="RegressionTestSuite">
 	<parameter name="browserName" value="chrome"></parameter>
-	<parameter name="isHeadless" value="true"></parameter>
+	<parameter name="isHeadless" value="false"></parameter>
   <test thread-count="5" parallel="methods" name="Test">
     <classes>
       <class name="tests.UserMenuTest"/>

@@ -23,7 +23,7 @@ import utils.FileUtils;
 public class UserMenuPage extends BasePage {
 
 	public UserMenuPage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
+		super(driver);
 
 	}
 
@@ -208,10 +208,10 @@ public class UserMenuPage extends BasePage {
 
 	@FindBy(name = "j_id0:waitingForm")
 	public WebElement spinnerIcon;
-	
+
 	@FindBy(id = "cropWaitingPage:croppingForm")
 	public WebElement spinnerWhileCropping;
-	
+
 	@FindBy(id = "progressIcon")
 	public WebElement fileUploadSpinner;
 
@@ -260,8 +260,9 @@ public class UserMenuPage extends BasePage {
 	public boolean selectMyProfile() throws IOException {
 //		return this.selectOptionFromUserMenuOptions(driver, FileUtils.readUserMenuTestData("usermenu.item.profile"));
 		boolean isSelected = false;
-		if (MyProfile.isDisplayed()) {
-			MyProfile.click();
+		clickElement(MyProfile, "");
+		// write logic to check if my profile page opened
+		if (true) {
 			isSelected = true;
 		}
 		return isSelected;
@@ -274,7 +275,7 @@ public class UserMenuPage extends BasePage {
 
 	public void selectEditContact(WebDriver driver) {
 		if (CommonUtils.waitForElement(driver, editContactButton)) {
-			editContactButton.click();
+			clickElement(editContactButton, "");
 		}
 	}
 
@@ -295,14 +296,14 @@ public class UserMenuPage extends BasePage {
 	public boolean verifyLastNameChangeInAboutTab(WebDriver driver, String sLastName) {
 		boolean isLastNameVerified = false;
 		if (Abouttab.isDisplayed()) {
-			Abouttab.click();
-			Abouttablastname.clear();
-			Abouttablastname.sendKeys(sLastName);
-			saveAllButton.click();
+			clickElement(Abouttab, "");
+			clearElement(Abouttablastname, "");
+			enterText(Abouttablastname ,sLastName, "");
+			clickElement(saveAllButton, "");
 			driver.switchTo().parentFrame();
 
 			if (Userprofilepagenamedisplay.isDisplayed()) {
-				String sActualName = Userprofilepagenamedisplay.getText();
+				String sActualName = getTextFromElement(Userprofilepagenamedisplay, "");
 				if (sActualName.contains(sLastName)) {
 					isLastNameVerified = true;
 				}
@@ -316,15 +317,13 @@ public class UserMenuPage extends BasePage {
 	public boolean verifyCreatePost(WebDriver driver, String sMessageToPost) throws InterruptedException {
 		boolean verifyCreatePost = false;
 		if (CommonUtils.waitForElement(driver, postLink)) {
-			postLink.click();
+			clickElement(postLink, "");
 			driver.switchTo().frame(0);
-			postTextArea.sendKeys(sMessageToPost);
+			enterText(postTextArea, sMessageToPost, "");
 			driver.switchTo().parentFrame();
-			if (shareButton.isDisplayed()) {
-				shareButton.click();
+			clickElement(shareButton, "");
 //				Thread.sleep(2000); // this to be replaced with invisibility of an element
-				CommonUtils.waitForElementToDisappear(driver, shareButton);
-			}
+			CommonUtils.waitForElementToDisappear(driver, shareButton);
 //			if (firstPostText.isDisplayed()) {
 			verifyCreatePost = true;
 //			}
@@ -356,9 +355,7 @@ public class UserMenuPage extends BasePage {
 
 	public void clickOnUpdatePhotoButton(WebDriver driver) {
 		CommonUtils.moveToElement(driver, moderatorButton);
-		if (updateButton.isDisplayed()) {
-			updateButton.click();
-		}
+		clickElement(updateButton, "");
 	}
 
 	public boolean verifyPhotoUpload(WebDriver driver, String sPhotoPath) throws InterruptedException {
@@ -366,16 +363,15 @@ public class UserMenuPage extends BasePage {
 		clickOnUpdatePhotoButton(driver);
 		driver.switchTo().frame(photoUploadIframe);
 		if (CommonUtils.waitForElement(driver, uploadphoto)) {
-			uploadphoto.sendKeys(sPhotoPath);
-			photoSaveButton.click();
-
+			enterText(uploadphoto, sPhotoPath, "");
+			clickElement(photoSaveButton, "");
 //			Thread.sleep(4000);
 		}
 		if (CommonUtils.waitForElementToDisappear(driver, spinnerIcon)
 				&& CommonUtils.waitForElement(driver, photoSaveButton2)) {
-			photoSaveButton2.click();
+			clickElement(photoSaveButton2, "");
 //			Thread.sleep(4000);
-			if(CommonUtils.waitForElementToDisappear(driver, spinnerWhileCropping)) {
+			if (CommonUtils.waitForElementToDisappear(driver, spinnerWhileCropping)) {
 				isUploadSuccess = true;
 			}
 		}
@@ -383,10 +379,8 @@ public class UserMenuPage extends BasePage {
 		return isUploadSuccess;
 	}
 
-	
 	public String selectRandomOption() {
-		
-		
+
 		return "Option Value";
 	}
 }

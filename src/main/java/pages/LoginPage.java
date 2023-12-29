@@ -13,9 +13,13 @@ import utils.FileUtils;
 
 public class LoginPage extends BasePage {
 
-	public LoginPage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
+//	public LoginPage(WebDriver driver) {
+//		PageFactory.initElements(driver, this);
+//
+//	}
 
+	public LoginPage(WebDriver driver) {
+		super(driver);
 	}
 
 	@FindBy(id = "username")
@@ -50,7 +54,7 @@ public class LoginPage extends BasePage {
 		boolean isSelected = false;
 		if (!rememberMe.isSelected()) {
 			logger.info("LoginPage : selectRememberMeCheckBox : remember me checkbox selected");
-			rememberMe.click();
+			clickElement(rememberMe, "");
 			isSelected = true;
 		}
 		logger.info("LoginPage : selectRememberMeCheckBox : Ended");
@@ -63,9 +67,9 @@ public class LoginPage extends BasePage {
 		driver.manage().window().maximize();
 		logger.info("LoginPage : loginToApp : Window maximized");
 		if (CommonUtils.waitForElement(driver, username)) {
-			username.sendKeys(FileUtils.readPropertiesFile(FileConstants.LOGIN_TESTDATA_FILE_PATH2, "username"));
-			password.sendKeys(FileUtils.readPropertiesFile(FileConstants.LOGIN_TESTDATA_FILE_PATH2, "password"));
-			loginButton.click();
+			enterText(username, FileUtils.readPropertiesFile(FileConstants.LOGIN_TESTDATA_FILE_PATH2, "username"), "");
+			enterText(password, FileUtils.readPropertiesFile(FileConstants.LOGIN_TESTDATA_FILE_PATH2, "password"), "");
+			clickElement(loginButton, "");
 			logger.info("LoginPage : loginToApp : clicked ion login button");
 		}
 	}

@@ -29,9 +29,8 @@ public class UserMenuTest extends BaseTest {
 		
 	}
 
-	@Test ()
+	@Test (priority = 1)
 	public void userMenuDropDown_TC06(Method name) throws IOException, InterruptedException {
-//		SoftAssert softAssert = new SoftAssert();
 		WebDriver driver = BaseTest.getDriver();
 		ExtentTest test = BaseTest.threadExtentTest.get();
 		LoginPage lp = new LoginPage(driver);
